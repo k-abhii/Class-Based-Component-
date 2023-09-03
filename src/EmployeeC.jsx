@@ -1,6 +1,6 @@
-import React, { Component } from "react";
+import { Component } from "react";
 
-class EmployeeClassComponent extends React.Component {
+class EmployeeClassComponent extends Component {
   constructor() {
     super();
   }
