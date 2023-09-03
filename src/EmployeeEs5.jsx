@@ -1,10 +1,10 @@
-function EmployeeEs5Component(props) {
+function EmployeeEs5Component({ name, designation, age }) {
   return (
     <div>
       <h1>Employee Es5 Component</h1>
-      <p>Name : {props.name}</p>
-      <p>Designation : {props.designation}</p>
-      <p>Age : {props.age}</p>
+      <p>Name : {name}</p>
+      <p>Designation : {designation}</p>
+      <p>Age : {age}</p>
     </div>
   );
 }
