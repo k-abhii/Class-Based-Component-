@@ -7,8 +7,8 @@ function App() {
   return (
     <div>
       <EmployeeClassComponent name="David" designation="Developer" age="35" />
-      <EmployeeEs5Component />
-      <EmployeeEs6Component />
+      <EmployeeEs5Component name="Maria" designation="Tester" age="23" />
+      <EmployeeEs6Component name="Abhimanyu" designation="Support" age="28" />
     </div>
   );
 }
