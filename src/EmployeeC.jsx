@@ -11,6 +11,7 @@ class EmployeeClassComponent extends Component {
   }
   changeAddress(event) {
     console.log("Change Address Event Triggered", event);
+    this.setState({ address: "Hyderabad" });
   }
 
   render() {
@@ -23,14 +24,14 @@ class EmployeeClassComponent extends Component {
         <p>State :{this.state.address}</p>
         <button
           onClick={(event) => {
-            this.changeAddress(event,'test');
+            this.changeAddress(event, "test");
           }}
         >
           Change Address1
         </button>
-        <button onClick={this.changeAddress.bind(this, "test")}>
+        {/* <button onClick={this.changeAddress.bind(this, "test")}>
           Change Address2
-        </button>
+        </button> */}
       </div>
     );
   }
