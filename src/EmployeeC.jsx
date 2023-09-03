@@ -1,8 +1,8 @@
 import { Component } from "react";
 
 class EmployeeClassComponent extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
   }
 
   render() {
