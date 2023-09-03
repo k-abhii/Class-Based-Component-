@@ -23,12 +23,14 @@ class EmployeeClassComponent extends Component {
         <p>State :{this.state.address}</p>
         <button
           onClick={(event) => {
-            this.changeAddress(event);
+            this.changeAddress(event,'test');
           }}
         >
           Change Address1
         </button>
-        <button onClick={this.changeAddress}>Change Address2</button>
+        <button onClick={this.changeAddress.bind(this, "test")}>
+          Change Address2
+        </button>
       </div>
     );
   }
