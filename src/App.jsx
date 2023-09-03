@@ -6,7 +6,7 @@ import EmployeeEs6Component from "./EmployeeEs6";
 function App() {
   return (
     <div>
-      <EmployeeClassComponent />
+      <EmployeeClassComponent name="David" designation="Developer" age="35" />
       <EmployeeEs5Component />
       <EmployeeEs6Component />
     </div>
